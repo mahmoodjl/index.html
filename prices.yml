@@ -1,0 +1,45 @@
+# به‌روزرسانی خودکار قیمت‌های داشبورد کیمیا مس
+# ------------------------------------------------------------------
+# این فایل باید در مخزن، در مسیر  .github/workflows/prices.yml  قرار بگیرد.
+# هر ۱۰ دقیقه اجرا می‌شود، قیمت‌ها را از منابع می‌گیرد و prices.json را
+# در ریشه مخزن به‌روز می‌کند. داشبورد همان فایل را می‌خواند.
+name: به‌روزرسانی قیمت‌ها
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'      # هر ۱۰ دقیقه
+  workflow_dispatch:             # امکان اجرای دستی از تب Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prices
+  cancel-in-progress: false
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests
+
+      - name: گرفتن قیمت‌ها
+        run: python3 collector/fetch_prices.py --out prices.json
+
+      - name: ثبت در مخزن
+        run: |
+          git config user.name  "ktk-prices-bot"
+          git config user.email "actions@github.com"
+          git add prices.json
+          if git diff --staged --quiet; then
+            echo "تغییری نبود"
+          else
+            git commit -m "قیمت‌ها: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
