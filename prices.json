@@ -1,0 +1,85 @@
+{
+ "built": "2026-09-16T10:28:39+00:00",
+ "builtJalali": "1405/06/25",
+ "usd": {
+  "ok": true,
+  "rial": 2301000.0,
+  "at": "2026-09-16T10:26:56+00:00",
+  "src": "tgju.org",
+  "note": "۱۳:۰۰:۲۶"
+ },
+ "lme": {
+  "ok": false,
+  "at": "2026-09-16T10:26:57+00:00",
+  "src": "lme.com",
+  "delayed": true
+ },
+ "ime": {
+  "ok": false,
+  "rows": [],
+  "at": "2026-09-16T10:28:38+00:00",
+  "src": "ime.co.ir",
+  "supplier": "ملی صنایع مس ایران"
+ },
+ "news": [
+  {
+   "title": "Copper Heads for Weekly Loss as Doubts on US Tariffs Intensify - Bloomberg.com",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc2ZQXzMzVHBOajdkVE45aUl3dUJVME5aWFJVekZ0YWJpUGpDcHNuZnFONGpORzdkR1BNc2ptOTA1OS1ZU0MzeDV4V3NjTnZYOVppWW01Zm5iNVozR3B4OVA3U25Hc3ZRdkp2U09tZjYyTWFtQzV4VmY5d1Q2V24tN2lnTTFldFZpTmZ4cmhLNTI5YW9EQkZQNmhBSXNYcG5PeVFZT3hBREVnT1dpMHFWZVhQWQ?oc=5",
+   "src": "Bloomberg.com",
+   "date": "Fri, 11 Sep 2026 11:55:30 GMT",
+   "impact": "high"
+  },
+  {
+   "title": "Copper Stocks Tumble as Tariff Doubt Reverses Record Rally: Freeport-McMoRan Sinks 8%, Teck Resources and Southern Copper Drop 7% - Yahoo Finance",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRm1vRjAtWEQwMVkyYjZQb3FwY1FUUzJxeGUzMWJVeEtWVi0yakx2SU43RDlzcGVlY1pIWEFIMzZZMUFDM1JTSnMwS05NTnBteDdzR2Q0dEN3RjV4azMxd3B0RUV6ZkloT0Y1d2w5Z3JzSG0xdnE0WXFJelUyV2lYbFpHUi1jdENja0RVRzdRT29KYUxWZU9fOUNxVzliLXRlVGZjOEZB?oc=5",
+   "src": "Yahoo Finance",
+   "date": "Thu, 10 Sep 2026 14:43:21 GMT",
+   "impact": "high"
+  },
+  {
+   "title": "Copper Stocks Surge as Prices Keep Climbing - Investing News Network",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA5TjVsY0RxR1RkcUNfQ2cxZlVFdFM3T1FRWDlLcUZvVmdjeVY4WXhzNjg5dXN4VzVnVk1IYUIzWWRxUUdza3ZYUEFsQndrdzhhVnItcVotNnJpSzlnYVBhaGozSURVUko0MzRJ?oc=5",
+   "src": "Investing News Network",
+   "date": "Wed, 09 Sep 2026 22:00:00 GMT",
+   "impact": "high"
+  },
+  {
+   "title": "The AI boom and tariff uncertainty are pushing copper prices to record highs - Scripps News",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQlEtOEdpeG1jaHIyQjEyYmZETlVtRG9BdWV4SG5ROUZBZWpIQU9sRUt4QjlWYklEUlg1S3VLZTR0OWh0RXZhSTg3SXQ0dGxmQldTZXhyLTF3b2tKOGlscU52WUFjc29GNkJOVE15b1pUdWZaSG1MOV9wQkJKX2hwaHFGbExVdHlrUk54LUczZGpXb0tzNjkxSXdNQ08wNGN3SUJXQlAyUjlyOFhiWWtaU25n?oc=5",
+   "src": "Scripps News",
+   "date": "Fri, 11 Sep 2026 01:38:34 GMT",
+   "impact": "high"
+  },
+  {
+   "title": "Copper Market Volatility Becomes New Normal as Tariffs and Speculation Reshape Pricing - IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeExKNjZzSDY4S1JvX0l5UXFOdXJOV0JRTFkwZWdyc3UzdzV2TzRic081cmQ5TERTVlY1VThKZG95bkJSYWR6TGxqaFQzU1NnNC1lcFpiRjROb0NEX0J0b1MydXBTYVBlWTE1NkJYV3d4d2ZzWFE4T1NicjI0TExHd3FLZERjdm83SDVzS2Z1NFQ5eVpMUS1uY0RhVWl0Ml9HTDViWlpHcVE3U1JSektmMU9Zamt1c0E?oc=5",
+   "src": "IndexBox",
+   "date": "Tue, 15 Sep 2026 21:21:42 GMT",
+   "impact": "high"
+  }
+ ],
+ "log": [
+  "— دلار —",
+  "  USD ✓ https://call1.tgju.org/ajax.json [price_dollar_rl] = 2,301,000 ریال",
+  "— LME —",
+  "  LME api probe status=403",
+  "  LME ✗ https://www.lme.com/en/metals/non-ferrous/lme-copper/ status=403",
+  "  LME ✗ https://www.lme.com/metals/non-ferrous/lme-copper status=403",
+  "  LME ✗ هیچ منبعی جواب نداد",
+  "— بورس کالا —",
+  "  IME ✗ AmareMoamelatList: HTTPSConnectionPool(host='www.ime.co.ir', port=443): Max retries exceeded with url: /subsystems/ime/services/home/imedata.asmx/AmareMoamelatList (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ime.co.ir', port=443) at 0x7fcf223ffe50>, 'Connection to www.ime.co.ir timed out. (connect timeout=25)'))",
+  "  IME ✗ AmareMoamelatList: HTTPSConnectionPool(host='www.ime.co.ir', port=443): Max retries exceeded with url: /subsystems/ime/services/home/imedata.asmx/AmareMoamelatList (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ime.co.ir', port=443) at 0x7fcf223fe610>, 'Connection to www.ime.co.ir timed out. (connect timeout=25)'))",
+  "  IME ✗ GetAmareMoamelat: HTTPSConnectionPool(host='www.ime.co.ir', port=443): Max retries exceeded with url: /subsystems/ime/services/home/imedata.asmx/GetAmareMoamelat (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ime.co.ir', port=443) at 0x7fcf223f9a90>, 'Connection to www.ime.co.ir timed out. (connect timeout=25)'))",
+  "  IME ✗ GetAmareMoamelat: HTTPSConnectionPool(host='www.ime.co.ir', port=443): Max retries exceeded with url: /subsystems/ime/services/home/imedata.asmx/GetAmareMoamelat (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ime.co.ir', port=443) at 0x7fcf22396dd0>, 'Connection to www.ime.co.ir timed out. (connect timeout=25)'))",
+  "  IME ✗ هیچ سرویسی داده کاتد مس نداد — ساختار صفحه را باید دوباره بررسی کرد",
+  "— اخبار —",
+  "  NEWS ✓ 104 خبر — 25 مهم"
+ ],
+ "hist": [
+  {
+   "t": "2026-09-16T10:28:39+00:00",
+   "j": "1405/06/25",
+   "usd": 2301000.0
+  }
+ ]
+}
